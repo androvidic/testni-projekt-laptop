@@ -4,29 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Početna stranica Andrija Vidić></title>
+    <link rel="stylesheet" href="C:\Users\EDukOS_125\Desktop\Andrija testni projekt\styles.css">
 </head>
 <body>
     <header>
 <img src="C:\Users\EDukOS_125\Desktop\Andrija testni projekt\slike\ANDRIJA VIDIĆ.jpg" alt="Andrija Vidić" width="150px">
     <br>
+    <nav>
         <ul>
-            <li><a href="#">Početna stranica</a></li>
-            <li><a href="#">About stranica</a></li>
-            <li><a href="#">Porfolio stranica</a></li>
+            <li><a href="#">Početna stranica</a></li> 
+            <li><a href="#">About stranica</a></li> 
+            <li><a href="#">Porfolio stranica</a></li> 
         </ul>
+    </nav>
     </header>
 
     <main>
         <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque cupiditate eum repellendus aperiam totam aspernatur cum laudantium, at possimus eligendi officiis numquam, quasi ea temporibus aliquam a ex beatae dicta. Quibusdam soluta voluptatum omnis corporis, illum consectetur? Consectetur tenetur modi voluptate error dolore nemo iste ipsum quae atque expedita mollitia eum quisquam necessitatibus aut nihil, numquam, repudiandae et incidunt soluta possimus corrupti? Sequi cupiditate ab in optio fuga ex odit tempore obcaecati amet laboriosam pariatur vel inventore, quia fugit? Culpa modi eligendi delectus odio reprehenderit quis illo rerum ullam, eum repudiandae accusamus suscipit voluptate placeat ipsam officiis debitis possimus!      
+            <p>Molimo Vas ispunite kontakt formu s Vašim točnim podacima      
             </p>
 
         </div>
+<table border="2">
+    <form action="skripta.php" type="POST">
+    <tr>
+        <td>Ime</td>
+        <td><input type="text" name="ime"></td>
+</tr>        
+<tr>
+    <td>Prezime</td>
+    <td><input type="text" name="prezime"></td>
+</tr>      
+<tr>
+    <td>E-mail</td>
+    <td><input type="email" name="email"></td>
+</tr>      
+<tr>
+    <td>Država</td>
+    <td><select name="drzava">
+        <option value="hrvatska" id="hr">Hrvatska</option>
+        <option value="slovenija" id="si">Slovenija</option>
+        <option value="njemacka" id="de">Njemačka</option>
+        </select></td>
+</tr>      
+<tr>
+    <td>Spol</td>
+    <td>
+        <input type="radio" name="spol" value="muski">Muški
+        <input type="radio" name="spol" value="zenski">Ženski
+    </td>
+</tr>      
+<tr>
+    <td>Zanima me:</td>
+    <td>
+        <input type="radio" name="zanima me" value="plivanje">Plivanje
+        <input type="radio" name="zanima me" value="penjanje">Penjanje
+        <input type="radio" name="zanima me" value="programiranje">Programiranje
+    </td>
+</tr>      
+<tr>
+    <td colspan="2">
+        <input type="submit" value="Pošalji">
+    </td>
+</tr>      
+    </form>
+</table>    
+<br>
+<hr>
+<br>
 
     </main>
 
     <footer>
-        Web stranicu izradio: Andrija VIDIĆ
+        Web stranicu izradio: Andrija VIDIĆ<br><br>
         Copyright 2025.
 
     </footer>

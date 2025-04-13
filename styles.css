@@ -1,0 +1,44 @@
+*, *::before, *::after
+{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: beige;
+display: flex;
+justify-content: space-between;
+padding: 0 20px;
+place-items: bottom;
+
+
+
+}
+
+footer {
+    background-color: azure; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+
+    background-color: aliceblue; font: sans-serif; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex;
+    gap: 20px;
+
+
+
+}
